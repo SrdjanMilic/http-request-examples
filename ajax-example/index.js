@@ -1,5 +1,3 @@
-const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
-
 function request() {
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
